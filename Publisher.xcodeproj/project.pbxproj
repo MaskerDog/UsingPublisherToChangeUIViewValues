@@ -14,6 +14,8 @@
 		E453C4CE291B39B600983C01 /* PublisherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E453C4CD291B39B600983C01 /* PublisherTests.swift */; };
 		E453C4D8291B39B600983C01 /* PublisherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E453C4D7291B39B600983C01 /* PublisherUITests.swift */; };
 		E453C4DA291B39B600983C01 /* PublisherUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E453C4D9291B39B600983C01 /* PublisherUITestsLaunchTests.swift */; };
+		E453C4EB291B3A3700983C01 /* CustomUIView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E453C4EA291B3A3700983C01 /* CustomUIView.xib */; };
+		E453C4ED291B3A9C00983C01 /* CustomUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E453C4EC291B3A9C00983C01 /* CustomUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		E453C4D3291B39B600983C01 /* PublisherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PublisherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E453C4D7291B39B600983C01 /* PublisherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublisherUITests.swift; sourceTree = "<group>"; };
 		E453C4D9291B39B600983C01 /* PublisherUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublisherUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E453C4EA291B3A3700983C01 /* CustomUIView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomUIView.xib; sourceTree = "<group>"; };
+		E453C4EC291B3A9C00983C01 /* CustomUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				E453C4BC291B39B600983C01 /* PublisherApp.swift */,
 				E453C4BE291B39B600983C01 /* ContentView.swift */,
+				E453C4EA291B3A3700983C01 /* CustomUIView.xib */,
+				E453C4EC291B3A9C00983C01 /* CustomUIView.swift */,
 				E453C4C0291B39B600983C01 /* Assets.xcassets */,
 				E453C4C2291B39B600983C01 /* Preview Content */,
 			);
@@ -233,6 +239,7 @@
 			files = (
 				E453C4C4291B39B600983C01 /* Preview Assets.xcassets in Resources */,
 				E453C4C1291B39B600983C01 /* Assets.xcassets in Resources */,
+				E453C4EB291B3A3700983C01 /* CustomUIView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E453C4ED291B3A9C00983C01 /* CustomUIView.swift in Sources */,
 				E453C4BF291B39B600983C01 /* ContentView.swift in Sources */,
 				E453C4BD291B39B600983C01 /* PublisherApp.swift in Sources */,
 			);
